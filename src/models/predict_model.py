@@ -1,10 +1,5 @@
 import pandas as pd
 import joblib  # For loading the trained model
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
-from category_encoders import CatBoostEncoder
-from sklearn.compose import ColumnTransformer
-from sklearn.impute import SimpleImputer
 
 # Load the model
 def load_model(filename='trained_model.joblib'):
