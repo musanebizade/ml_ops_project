@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, cross_val_score
@@ -10,7 +9,6 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.decomposition import PCA
 from xgboost import XGBClassifier
 from category_encoders import CatBoostEncoder
-import optuna
 from scipy.stats import ttest_rel
 import joblib
 

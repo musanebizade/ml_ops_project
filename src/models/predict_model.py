@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-# predict_model.py
-
 import pandas as pd
 import joblib
-import numpy as np
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
