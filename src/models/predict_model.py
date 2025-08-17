@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # predict_model.py
 
 import pandas as pd
