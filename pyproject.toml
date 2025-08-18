@@ -7,12 +7,17 @@ requires-python = ">= 3.13"
 authors = [{ name = "musanebizade", email = "email@email.com" }]
 dependencies = [
     "category-encoders>=2.8.1",
-    "numpy>=2.3.2",
+    "fastapi",
+    "numpy >=1.26.0",
     "optuna>=4.4.0",
     "pandas>=2.3.1",
     # runtime deps go here, e.g. "pandas>=2.2"
-    "pyarrow-parquet",
+    "pyarrow",
+    "python-multipart>=0.0.20",
     "requests>=2.32.4",
+    "streamlit>=1.48.1",
+    "uvicorn",
+    "xgboost>=3.0.4",
 ]
 
 # [tool.ruff]
